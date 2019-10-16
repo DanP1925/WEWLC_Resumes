@@ -20,4 +20,4 @@ One of the most valuable things about TDD is that it lets us concentrate on one 
 4. Only changes in behavior require changes in program code
 5. is_a relationship
 
-It lets you add new functionality by abstracting a previous functionality and only modifying the new class. Now the new class and the old class will be both used depending if the new class is needed or the previous class is needed.
+It lets you add new functionality by abstracting a previous functionality and only modifying the new class. This is done by overriding the unnafected part of the old class that becames an abstract class now with the changed method becoming an abstract method that gets overrided by the old method abstracted or the new method that gets created for that.
